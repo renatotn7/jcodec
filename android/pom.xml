@@ -4,7 +4,7 @@
 
   <groupId>org.jcodec</groupId>
   <artifactId>jcodec-android</artifactId>
-  <version>0.2.0</version>
+  <version>0.2.0_1</version>
   <packaging>jar</packaging>
   <name>JCodec for Android</name>
   <url>http://jcodec.org</url>
@@ -41,8 +41,8 @@
           <target>1.6</target>
         </configuration>
       </plugin>
-      <!--plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-gpg-plugin</artifactId> 
-        <executions> <execution> <id>sign-artifacts</id> <phase>verify</phase> <goals> <goal>sign</goal> 
+      <!--plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-gpg-plugin</artifactId>
+        <executions> <execution> <id>sign-artifacts</id> <phase>verify</phase> <goals> <goal>sign</goal>
         </goals> </execution> </executions> </plugin -->
     </plugins>
   </build>
@@ -56,7 +56,7 @@
     <dependency>
       <groupId>org.jcodec</groupId>
       <artifactId>jcodec</artifactId>
-      <version>0.2.0</version>
+      <version>0.2.0_1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
